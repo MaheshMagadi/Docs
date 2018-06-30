@@ -1,0 +1,19 @@
+Run git bash
+ls
+cd <Mention the location whcih you wnat to commit with doble quotes>
+git init
+git remote add origin <paste the http path copied fom git repository>
+git remote -v <this is only to check the permission of the repository>
+git add .
+git commit -m" <Mention whatever the comment you want>"
+git push origin master
+
+
+If any doubts then 
+git help
+
+For new users it may ask credential
+then 
+git config --global user.email "<your regstered mail id>"
+got config --global user.name "<Your regstered user name on git>"
+
